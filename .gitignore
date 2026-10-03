@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.vitest/
+tmp/
+*.local
+.env*
+!.env.example
+test-results/
+.pnpm-store/

@@ -1,0 +1,68 @@
+/* Paleta semántica compartida por todas las pantallas. */
+:root {
+  font-family: 'Plus Jakarta Sans Variable', 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  font-weight: 450;
+  line-height: 1.5;
+  color-scheme: light;
+  --page: #e8e7df;
+  --shell: #f6f4ec;
+  --surface: #fffefa;
+  --soft: #eeeee5;
+  --ink: #203f46;
+  --muted: #5b6b70;
+  --line: #d9dfd8;
+  --strong-line: #aabdbb;
+  --primary: #285f68;
+  --primary-hover: #1b4952;
+  --on-primary: #fffefa;
+  --accent: #a44d33;
+  --accent-soft: #f3ddca;
+  --on-accent: #79462d;
+  --canvas: #f0f5f1;
+  --dot: #c6d6cf;
+  --edge: #476d77;
+  --hero: #dde9e2;
+  --focus: #286e80;
+  --shadow-color: #163b4312;
+  --float-shadow-color: #163b4326;
+  --danger: #a03536;
+  --group-ink: #233c43;
+  --curtain: #285b65;
+  --curtain-text: #fff3e2;
+  --curtain-dot: #efb396;
+  --green: var(--primary);
+  --green-dark: var(--primary-hover);
+  --mint: var(--soft);
+  --lime: var(--accent-soft);
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  background: var(--page);
+  color: var(--ink);
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --page: #211f1d;
+  --shell: #2b2926;
+  --surface: #38332f;
+  --soft: #48403a;
+  --ink: #f2ede4;
+  --muted: #d1c7bc;
+  --line: #5a5048;
+  --strong-line: #847366;
+  --primary: #d7d5ac;
+  --primary-hover: #e8e8c2;
+  --on-primary: #282b24;
+  --accent: #e7a379;
+  --accent-soft: #523a31;
+  --on-accent: #ffd3b5;
+  --canvas: #2c302a;
+  --dot: #51584d;
+  --edge: #d4c4a6;
+  --hero: #3c4036;
+  --focus: #f3c986;
+  --shadow-color: #14110d33;
+  --float-shadow-color: #110e0b80;
+  --danger: #ffb0a7;
+  --group-ink: #edf3ed;
+  --curtain: #5d493e;
+}
